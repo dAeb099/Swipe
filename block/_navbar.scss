@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__nav {
+        display: flex;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__link {
+        color: #000;
+    }
+    &__btn {
+        width: 139px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 24px;
+        border: 2px solid #fff;
+        background-color: rgba($color: #fff, $alpha: 0.6);
+        cursor: pointer;
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar {
+        &__nav,
+        &__btn {
+            display: none;
+        }
+    }
+}

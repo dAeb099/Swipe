@@ -1,1 +1,143 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  z-index: 5;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+section {
+  padding: 10px 50px;
+}
+
+body {
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.hero__title {
+  font-size: 88px;
+  width: 800px;
+  height: 150px;
+  line-height: 88px;
+  font-weight: 100;
+}
+.hero__text {
+  font-size: 30px;
+}
+.hero__btn {
+  width: 210px;
+  height: 60px;
+  background-color: #6259EA;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+.hero__img {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 620px;
+}
+.hero__companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 175px;
+  gap: 150px;
+  height: 150px;
+  z-index: 0;
+  background-color: rgba(129, 123, 253, 0.3);
+}
+.hero__watch {
+  padding: 0px 10px;
+}
+.hero__watch-text {
+  margin-top: 180px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero__content {
+    max-width: 480px;
+  }
+  .hero__img {
+    left: 100px;
+    top: 0;
+    max-width: 480px;
+  }
+  .hero__title {
+    max-width: 480px;
+  }
+  .hero__text {
+    margin-top: 150px;
+  }
+  .hero__watch-text {
+    margin-top: 90px;
+  }
+  .hero__companies {
+    width: 100%;
+    max-width: 480px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__nav {
+  display: flex;
+}
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar__link {
+  color: #000;
+}
+.navbar__btn {
+  width: 139px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 24px;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  margin-right: 70px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar__nav, .navbar__btn {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
