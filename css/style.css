@@ -1,3 +1,68 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  justify-content: space-between;
+  height: 850px;
+}
+.features__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.features__header {
+  font-size: 70px;
+  font-weight: 100;
+  width: 550px;
+}
+.features__btn {
+  width: 140px;
+  height: 60px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #6259ea;
+  border: none;
+  font-size: 18px;
+}
+.features__bottom {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 75px 50px;
+  border-radius: 40px;
+  justify-content: space-between;
+  height: 450px;
+}
+.features__item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 270px;
+}
+.features__item h3 {
+  font-size: 34px;
+  font-weight: 100;
+}
+.features__item__feature {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.features__picture1, .features__picture2, .features__picture3 {
+  position: absolute;
+}
+.features__picture1 {
+  top: 2200px;
+  left: -10px;
+}
+.features__picture2 {
+  top: 2300px;
+  left: 550px;
+}
+.features__picture3 {
+  top: 2100px;
+  left: 1000px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +91,14 @@ section {
 
 body {
   position: relative;
+}
+
+hr {
+  opacity: 0.7;
+}
+
+button {
+  cursor: pointer;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -109,6 +182,64 @@ body {
     gap: 50px;
   }
 }
+.numbers {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.numbers img {
+  position: absolute;
+  top: 950px;
+}
+.numbers h2 {
+  font-size: 70px;
+  font-weight: 100;
+}
+.numbers__item {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 700px;
+  justify-content: space-between;
+}
+.numbers__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.numbers__numtext1 {
+  font-size: 30px;
+}
+.numbers__numtext2 {
+  width: 380px;
+  line-height: 24px;
+  font-size: 18px;
+}
+.numbers__number {
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.video__top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+.video__top hr {
+  width: 100%;
+}
+.video__header {
+  font-weight: 100;
+  font-size: 44px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
