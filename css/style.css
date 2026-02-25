@@ -1,3 +1,38 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 200px;
+  align-items: start;
+}
+.faq__header {
+  font-size: 70px;
+  font-weight: 100;
+  width: 600px;
+}
+.faq__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.faq__question {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 1440px;
+}
+.faq__question img {
+  width: 40px;
+}
+.faq__textofquestion {
+  font-size: 24px;
+}
+.faq__img {
+  position: absolute;
+  top: 6200px;
+  left: 1000px;
+}
+
 .features {
   display: flex;
   flex-direction: column;
@@ -218,6 +253,121 @@ button {
 .numbers__number {
   font-size: 100px;
   font-weight: 100;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.price__header {
+  font-size: 44px;
+  font-weight: 100;
+}
+.price__plans {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.price__basic, .price__pro {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 640px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #aaa;
+  justify-content: center;
+}
+.price__feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -10px;
+}
+.price__plan {
+  font-size: 36px;
+  font-weight: 100;
+}
+.price__cost {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.price__costt {
+  font-size: 80px;
+}
+.price__btn {
+  width: 140px;
+  height: 60px;
+  color: #fff;
+  background-color: #6259ea;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.price__pro {
+  border: 3px solid #6259ea;
+  box-shadow: none;
+}
+.price__img1 {
+  position: absolute;
+  top: 5000px;
+  left: -100px;
+  z-index: 4;
+}
+.price__img2 {
+  position: absolute;
+  top: 5100px;
+  left: 1200px;
+  z-index: 4;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-top: 100px;
+}
+.team__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.team__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.team__header {
+  font-size: 70px;
+  line-height: 77px;
+  font-weight: 100;
+  width: 500px;
+}
+.team__btn1 {
+  width: 130px;
+  height: 60px;
+  color: #fff;
+  background-color: #6259ea;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.team__btn2 {
+  width: 200px;
+  height: 60px;
+  background-color: #eaeaea;
+  box-shadow: 2px 2px 2px #dbdbdb;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 .technologies {

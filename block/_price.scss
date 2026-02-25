@@ -1,0 +1,72 @@
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    &__header {
+        font-size: 44px;
+        font-weight: 100;
+    }
+    &__plans {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    &__basic,
+    &__pro {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 640px;
+        height: 500px;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+        padding: 20px;
+        border: 3px solid #fff;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #aaa;
+        justify-content: center;
+    }
+    &__feature {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: -10px;
+    }
+    &__plan {
+        font-size: 36px;
+        font-weight: 100;
+    }
+    &__cost {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    &__costt {
+        font-size: 80px;
+    }
+    &__btn {
+       width: 140px;
+       height: 60px;
+       color: #fff;
+       background-color: #6259ea;
+       border: none;
+       border-radius: 10px;
+       font-size: 20px;
+    }
+    &__pro {
+        border: 3px solid #6259ea;
+        box-shadow: none;
+    }
+    &__img1 {
+        position: absolute;
+        top: 5000px;
+        left: -100px;
+        z-index: 4;
+    }
+    &__img2 {
+        position: absolute;
+        top: 5100px;
+        left: 1200px;
+        z-index: 4;
+    }
+}

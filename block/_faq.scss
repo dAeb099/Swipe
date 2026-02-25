@@ -1,0 +1,34 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+    align-items: start;
+    &__header {
+        font-size: 70px;
+        font-weight: 100;
+        width: 600px;
+    }
+    &__questions {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__question {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 1440px;
+        & img {
+            width: 40px;
+        }
+    }
+    &__textofquestion {
+        font-size: 24px;
+    }
+    &__img {
+        position: absolute;
+        top: 6200px;
+        left: 1000px;
+    }
+}
