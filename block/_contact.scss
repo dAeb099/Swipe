@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  &__header {
+    font-size: 70px;
+    font-weight: 100;
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+  }
+
+  &__input1,
+  &__input2,
+  &__input3 {
+    background-color: rgba($color: #fff, $alpha: 0.4);
+    border: none;
+    box-shadow: 2px 2px 2px #aaa;
+    height: 50px;
+    padding: 10px;
+  }
+  &__btn {
+    height: 60px;
+    color: #fff;
+    background-color: #6259ea;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  &__img1 {
+    position: absolute;
+    top: 8660px;
+    left: -50px;
+  }
+  &__img2 {
+    position: absolute;
+    top: 8700px;
+    left: 1200px;
+  }
+}

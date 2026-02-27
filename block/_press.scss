@@ -1,0 +1,29 @@
+.press {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    margin-top: 100px;
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &__btn {
+        width: 140px;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #6249ea;
+        color: #fff;
+        border: none;
+    }
+    &__header {
+        font-size: 70px;
+        font-weight: 100;
+    }
+    &__bottom {
+        margin: 0 -70px;
+    }
+}

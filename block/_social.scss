@@ -1,0 +1,28 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__header {
+    font-size: 70px;
+    font-weight: 100;
+  }
+  &__btn {
+    width: 200px;
+    height: 60px;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+    box-shadow: 2px 2px 2px 2px #1a193075;
+    border: none;
+    font-size: 18px;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

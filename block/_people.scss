@@ -1,0 +1,61 @@
+.people {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    margin-top: 150px;
+    &__header {
+        font-size: 70px;
+        font-weight: 100;
+        width: 500px;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        height: 360px;
+        gap: 50px;
+        background-color: rgba($color: #abaabb, $alpha: 0.2);
+        padding: 30px;
+        border-radius: 20px;
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    &__socials {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__info__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    &__name {
+        font-size: 44px;
+        font-weight: 100;
+    }
+    &__text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    &__arrows {
+        margin-left: 800px;
+    }
+    &__img1 {
+        position: absolute;
+        left: 1100px;
+        top: 7550px;
+        z-index: 4;
+    }
+    &__img2 {
+        position: absolute;
+        left: -50px;
+        top: 6950px;
+        z-index: 4;
+    }
+}
