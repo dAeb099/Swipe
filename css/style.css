@@ -522,6 +522,7 @@ button {
   position: absolute;
   top: 9470px;
   left: 1100px;
+  z-index: 6;
 }
 .footer__kyiv {
   display: flex;
